@@ -1,30 +1,62 @@
 # Shift-OS
-# 🚀 Shift OS Welcome App (Harmonia)
+# 🚀 Shift OS 26.03.1 "Harmonia"
 
-![Version](https://img.shields.io/badge/version-26.03.1-blue.svg)
-![Python](https://img.shields.io/badge/python-3.x-blue.svg)
-![GTK3](https://img.shields.io/badge/GTK-3.0-green.svg)
-![License](https://img.shields.io/badge/license-MIT-green.svg)
+![OS](https://img.shields.io/badge/OS-Linux-orange.svg)
+![Base](https://img.shields.io/badge/Base-Ubuntu_24.04_LTS-E95420.svg)
+![Desktop](https://img.shields.io/badge/Desktop-GNOME_46-4A86E8.svg)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 
-**Shift OS Welcome App** is the first-boot setup wizard and onboarding experience designed exclusively for **Shift OS Harmonia**. Built with Python and GTK3, it provides a seamless, elegant, and powerful entry point for developers, creators, and professionals using the OS.
+*"An OS that gets out of your way and lets you create."*
 
-## ✨ Features
-* **Interactive Onboarding:** Guides users through essential post-install tasks (updates, drivers, settings).
-* **System Health Dashboard:** Real-time checking of package updates, firewall status, and network connectivity.
-* **Developer Setup Wizard:** Instantly generate and run customized bash scripts to install tech stacks (Python, Node.js, Docker, PostgreSQL, etc.).
-* **Power User Recommendations:** One-click search and install for heavy-duty applications.
-* **Hardware Info & Benchmark:** Displays system specifications and includes a built-in CPU benchmark tool.
-* **Custom CSS Styling:** Beautiful, distraction-free UI with a premium dark-blue/light aesthetic.
+**Shift OS** is a custom, high-performance Linux distribution built for developers, creators, and gamers. Based on the rock-solid foundation of Ubuntu 24.04 LTS, Shift OS strips away the bloatware and delivers a pure, blazing-fast GNOME 46 experience out of the box.
 
-## 🛠️ Tech Stack
-* **Language:** Python 3
-* **GUI Framework:** PyGObject (GTK 3)
-* **System Integration:** Bash, Subprocess, D-Bus
+---
 
-## 🚀 How to Run (Development)
-If you want to test or modify this application on any Ubuntu/GNOME-based distribution:
+## ✨ Why Shift OS?
+Most Linux distributions either ship bloated with software you never asked for, or strip things down so much they’re unusable out of the box. **Harmonia** hits the sweet spot:
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/USERNAME-BARU/NAMA-REPO.git](https://github.com/USERNAME-BARU/NAMA-REPO.git)
-   cd NAMA-REPO
+* 🚀 **Blazing Fast:** Idles at just ~700MB RAM. Optimized systemd services mean no hidden background processes eating your resources.
+* 🛡️ **Rock-Solid Base:** Built on Ubuntu 24.04 LTS with Linux Kernel 6.8. You get 5 years of security updates and maximum hardware compatibility.
+* 🎨 **Pure GNOME 46:** Unmodified, stock GNOME desktop running on Wayland by default for tear-free rendering and beautiful animations.
+* 🛠️ **Creator-Ready:** Whether you use Godot, VS Code, Docker, or OBS Studio, your workflow starts the moment you log in.
+* 🔒 **Privacy First:** Zero telemetry. Zero ads. Your machine, your data.
+
+## 🌟 Exclusive Features
+* **Shift Welcome App:** A custom-built, interactive onboarding wizard that guides you through system updates, driver installation, and features a built-in **Developer Setup Wizard** to install your favorite tech stacks in one click.
+* **Pre-configured Dock & Extensions:** A tailored UI experience right from the Live USB.
+* **Out-of-the-box Codecs:** Play any media format instantly without hunting for decoders.
+
+---
+
+## 📸 Screenshots
+*(Tambahkan screenshot desktop Shift OS kamu di sini nanti)*
+* [Desktop Overview]
+* [Shift Welcome App]
+* [App Grid & Custom Icons]
+
+---
+
+## 💻 System Requirements
+* **Processor:** 64-bit dual-core processor (2 GHz or better)
+* **Memory:** 4 GB RAM (8 GB recommended for development/gaming)
+* **Storage:** 25 GB of free hard drive space (SSD highly recommended)
+* **Graphics:** VGA capable of 1024x768 screen resolution (Intel/AMD/Nvidia)
+
+---
+
+## 📥 Download & Installation
+1. Download the latest ISO image from the releases page: 
+   👉 **[Download Shift OS Harmonia ISO](Masukkan-Link-Google-Drive-Atau-Release-Di-Sini)**
+2. Flash the ISO to a USB drive (at least 8GB) using [Rufus](https://rufus.ie/), [BalenaEtcher](https://balena.io/etcher/), or Ventoy.
+3. Boot from the USB drive.
+4. Follow the intuitive on-screen installer to set up Shift OS on your drive.
+
+---
+
+## 🤝 Community & Support
+Join the shift! If you find bugs or have feature requests, feel free to open an issue.
+* **Developer:** Kharis Destian Maulana
+* **Telegram/Discord:** [Link Komunitas Kamu]
+
+## 📜 License
+Shift OS is an open-source project. The custom tools (like the Welcome App) are released under the [MIT License](LICENSE). The underlying Ubuntu/Debian packages and GNOME desktop environment are covered by their respective licenses (mostly GPL).
