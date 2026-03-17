@@ -1,4 +1,3 @@
-# Shift-OS
 # 🚀 Shift OS 26.03.1 "Harmonia"
 
 ![OS](https://img.shields.io/badge/OS-Linux-orange.svg)
