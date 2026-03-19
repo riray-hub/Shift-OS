@@ -158,7 +158,7 @@ _GNOME Files (Nautilus) — simple, clean, and powerful._
 
 Download the latest ISO from the releases page:
 
-👉 **[Download Shift OS Harmonia ISO](https://github.com/riray-hub/shift-os/releases)**
+👉 **[Download Shift OS Harmonia ISO](https://shift-os.netlify.app)**
 
 > ISO size: ~4.2 GB | Codename: Harmonia | Architecture: amd64
 
