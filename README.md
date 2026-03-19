@@ -9,7 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-> *"An OS that gets out of your way and lets you create."*
+> _"An OS that gets out of your way and lets you create."_
 
 **Shift OS** is a custom, high-performance Linux distribution built for developers, creators, and gamers. Based on the rock-solid foundation of Ubuntu 24.04 LTS, Shift OS strips away the bloatware and delivers a pure, blazing-fast GNOME 46 experience out of the box.
 
@@ -48,7 +48,9 @@ Most Linux distributions either ship bloated with software you never asked for, 
 ## 🌟 Exclusive Features
 
 ### 🎉 Shift Welcome App
+
 A custom-built, interactive GTK3 onboarding wizard written in Python. Features include:
+
 - **System Health Monitor** — live checks for system updates, firewall status, and network connectivity
 - **Developer Setup Wizard** — select your tech stack (Python, Node.js, Go, Rust, Docker, databases, and more) and generate a one-click install script
 - **Keyboard Shortcuts Cheatsheet** — searchable reference for Navigation, System, Terminal, and Text shortcuts
@@ -59,6 +61,7 @@ A custom-built, interactive GTK3 onboarding wizard written in Python. Features i
 - **App Recommendations** — curated app list with live install status detection
 
 ### 🖥️ Other Highlights
+
 - **Pre-configured Flatpak + Flathub** — sandboxed apps ready from day one
 - **Calamares Graphical Installer** — get up and running in under 10 minutes
 - **Full Live Session** — try before you install, no data touched
@@ -69,78 +72,107 @@ A custom-built, interactive GTK3 onboarding wizard written in Python. Features i
 
 ## 📸 Screenshots
 
-> *(Add your screenshots here)*
+### 🖥️ Desktop
 
-| Desktop Overview | Shift Welcome App |
-|---|---|
-| *(screenshot)* | *(screenshot)* |
+![Shift OS Desktop](assets/screenshots/desktop.png)
+_Pure GNOME 46 on Wayland — clean, fast, and distraction-free._
 
-| App Grid | Terminal |
-|---|---|
-| *(screenshot)* | *(screenshot)* |
+---
+
+### 🎉 Shift Welcome App
+
+![Shift Welcome App](assets/screenshots/welcome-app.png)
+_The custom onboarding wizard that greets you on first login._
+
+---
+
+### 🔧 Driver Manager
+
+![Driver Manager](assets/screenshots/driver-manager.png)
+_Easily install GPU and hardware drivers right from the welcome screen._
+
+---
+
+### 📦 App Center
+
+![App Center](assets/screenshots/app-center.png)
+_Browse and install apps with GNOME Software — your gateway to thousands of packages._
+
+---
+
+### 📁 File Manager
+
+![File Manager](assets/screenshots/file-manager.png)
+_GNOME Files (Nautilus) — simple, clean, and powerful._
 
 ---
 
 ## 💻 System Requirements
 
-| | Minimum | Recommended |
-|---|---|---|
-| **Processor** | 64-bit dual-core, 2 GHz | 64-bit quad-core, 2.5 GHz+ |
-| **Memory** | 4 GB RAM | 8 GB RAM or more |
-| **Storage** | 25 GB free space | 50 GB SSD |
-| **Graphics** | VGA 1024×768 | Intel / AMD / NVIDIA GPU |
-| **Network** | Optional | Broadband for updates |
-| **Architecture** | amd64 (x86_64) | amd64 (x86_64) |
+|                  | Minimum                 | Recommended                |
+| ---------------- | ----------------------- | -------------------------- |
+| **Processor**    | 64-bit dual-core, 2 GHz | 64-bit quad-core, 2.5 GHz+ |
+| **Memory**       | 4 GB RAM                | 8 GB RAM or more           |
+| **Storage**      | 25 GB free space        | 50 GB SSD                  |
+| **Graphics**     | VGA 1024×768            | Intel / AMD / NVIDIA GPU   |
+| **Network**      | Optional                | Broadband for updates      |
+| **Architecture** | amd64 (x86_64)          | amd64 (x86_64)             |
 
 ---
 
 ## 📦 What's Included
 
 ### Pre-installed Software
-| Category | Apps |
-|---|---|
-| Browser | Firefox (via Flatpak) |
-| Code Editor | Visual Studio Code |
-| Game Engine | Godot 4 |
-| Version Control | Git |
-| Terminal | GNOME Terminal |
-| Text Editor | GNOME Text Editor |
-| Files | GNOME Files (Nautilus) |
-| Package Manager | APT + Flatpak |
-| Installer | Calamares |
+
+| Category        | Apps                   |
+| --------------- | ---------------------- |
+| Browser         | Firefox (via Flatpak)  |
+| Code Editor     | Visual Studio Code     |
+| Game Engine     | Godot 4                |
+| Version Control | Git                    |
+| Terminal        | GNOME Terminal         |
+| Text Editor     | GNOME Text Editor      |
+| Files           | GNOME Files (Nautilus) |
+| Package Manager | APT + Flatpak          |
+| Installer       | Calamares              |
 
 ### Technical Specs
-| Component | Version |
-|---|---|
-| Base | Ubuntu 24.04 LTS "Noble Numbat" |
-| Kernel | Linux 6.8 |
-| Desktop Environment | GNOME 46 (unmodified) |
-| Display Server | Wayland (default) · X11 (fallback) |
-| Init System | systemd |
-| Package Manager | APT · dpkg · Flatpak |
-| Default Filesystem | ext4 |
-| Default Shell | bash |
-| Installer | Calamares (graphical) |
+
+| Component           | Version                            |
+| ------------------- | ---------------------------------- |
+| Base                | Ubuntu 24.04 LTS "Noble Numbat"    |
+| Kernel              | Linux 6.8                          |
+| Desktop Environment | GNOME 46 (unmodified)              |
+| Display Server      | Wayland (default) · X11 (fallback) |
+| Init System         | systemd                            |
+| Package Manager     | APT · dpkg · Flatpak               |
+| Default Filesystem  | ext4                               |
+| Default Shell       | bash                               |
+| Installer           | Calamares (graphical)              |
 
 ---
 
 ## 📥 Download & Installation
 
 ### Step 1 — Download the ISO
+
 Download the latest ISO from the releases page:
 
 👉 **[Download Shift OS Harmonia ISO](https://github.com/Kharisdestianmaulana/shift-os/releases)**
 
 > ISO size: ~4.2 GB | Codename: Harmonia | Architecture: amd64
 
-### Step 2 — Verify the ISO *(optional but recommended)*
+### Step 2 — Verify the ISO _(optional but recommended)_
+
 ```bash
 sha256sum shift-os-26.03.1-amd64.iso
 # Compare with the SHA256 checksum posted on the releases page
 ```
 
 ### Step 3 — Flash to USB
+
 Use any of these tools to flash the ISO to a USB drive (minimum 8 GB):
+
 - **[Rufus](https://rufus.ie/)** — Windows
 - **[BalenaEtcher](https://balena.io/etcher/)** — Windows / macOS / Linux
 - **[Ventoy](https://www.ventoy.net/)** — Multi-boot USB
@@ -151,6 +183,7 @@ sudo dd if=shift-os-26.03.1-amd64.iso of=/dev/sdX bs=4M status=progress oflag=sy
 ```
 
 ### Step 4 — Boot & Install
+
 1. Restart your PC and boot from the USB drive (usually F12, F2, or Del to enter boot menu)
 2. Choose **"Try or Install Shift OS"**
 3. Once in the live session, click the **"Install Shift OS"** icon on the desktop
@@ -164,6 +197,7 @@ sudo dd if=shift-os-26.03.1-amd64.iso of=/dev/sdX bs=4M status=progress oflag=sy
 Shift OS is built using **[Cubic](https://github.com/PJ-Singh-001/Cubic)** (Custom Ubuntu ISO Creator).
 
 ### Prerequisites
+
 ```bash
 sudo apt-add-repository ppa:cubic-wizard/release
 sudo apt update
@@ -171,6 +205,7 @@ sudo apt install cubic
 ```
 
 ### Build Steps
+
 1. Clone this repository:
    ```bash
    git clone https://github.com/Kharisdestianmaulana/shift-os.git
@@ -181,6 +216,7 @@ sudo apt install cubic
 4. Generate the ISO from within Cubic
 
 ### Installing the Welcome App
+
 ```bash
 # Copy the welcome app to the system
 sudo cp welcome/shift-welcome.py /usr/local/bin/shift-welcome
@@ -199,17 +235,23 @@ cp welcome/shift-welcome.desktop ~/.config/autostart/
 
 ```
 shift-os/
-├── cubic-project/          # Cubic project directory
-│   └── custom-disk/        # All ISO customizations
-│       ├── etc/            # System config files
-│       ├── usr/            # Custom user-space additions
-│       └── casper/         # Live session config
-├── welcome/                # Shift Welcome App source
-│   ├── shift-welcome.py    # Main GTK3 app
-│   ├── shift-welcome.desktop  # Autostart entry
-│   └── logo.png            # App icon
-├── assets/                 # Wallpapers, icons, branding
-├── docs/                   # Documentation
+├── cubic-project/              # Cubic project directory
+│   └── custom-disk/            # All ISO customizations
+│       ├── etc/                # System config files
+│       ├── usr/                # Custom user-space additions
+│       └── casper/             # Live session config
+├── welcome/                    # Shift Welcome App source
+│   ├── shift-welcome.py        # Main GTK3 app
+│   ├── shift-welcome.desktop   # Autostart entry
+│   └── logo.png                # App icon
+├── assets/
+│   └── screenshots/            # Screenshots for README
+│       ├── desktop.png
+│       ├── welcome-app.png
+│       ├── driver-manager.png
+│       ├── app-center.png
+│       └── file-manager.png
+├── docs/                       # Documentation
 └── README.md
 ```
 
@@ -217,12 +259,12 @@ shift-os/
 
 ## 🗺️ Roadmap
 
-| Version | Codename | Status | Highlights |
-|---|---|---|---|
-| v26.03.1 | Harmonia | ✅ Released | Initial release, pure GNOME 46, Wayland, Calamares |
-| v26.09 | Serenity | 🔄 In Progress | NVIDIA driver integration, Shift Welcome App v2, GNOME 47 |
-| v27.03 | Aurora | 📋 Planned | ARM support, Shift App Center, online accounts manager |
-| Future | Shift OS Pro | 💡 Concept | Enterprise edition, LTS kernel, commercial support |
+| Version  | Codename     | Status         | Highlights                                                |
+| -------- | ------------ | -------------- | --------------------------------------------------------- |
+| v26.03.1 | Harmonia     | ✅ Released    | Initial release, pure GNOME 46, Wayland, Calamares        |
+| v26.09   | Serenity     | 🔄 In Progress | NVIDIA driver integration, Shift Welcome App v2, GNOME 47 |
+| v27.03   | Aurora       | 📋 Planned     | ARM support, Shift App Center, online accounts manager    |
+| Future   | Shift OS Pro | 💡 Concept     | Enterprise edition, LTS kernel, commercial support        |
 
 ---
 
@@ -237,6 +279,7 @@ Contributions are welcome! Here's how you can help:
 5. **Documentation** — Improve this README or add wiki pages
 
 ### Development Setup for the Welcome App
+
 ```bash
 git clone https://github.com/Kharisdestianmaulana/shift-os.git
 cd shift-os/welcome
@@ -277,6 +320,6 @@ Shift OS is an open-source project.
 
 Made with ❤️ in Indonesia by **Kharis Destian Maulana**
 
-*Shift OS — Elegance Meets Pure Performance*
+_Shift OS — Elegance Meets Pure Performance_
 
 </div>
