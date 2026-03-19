@@ -160,7 +160,7 @@ Download the latest ISO from the releases page:
 
 👉 **[Download Shift OS Harmonia ISO](https://shift-os.netlify.app)**
 
-> ISO size: ~4.2 GB | Codename: Harmonia | Architecture: amd64
+> ISO size: ~5.1 GB | Codename: Harmonia | Architecture: amd64
 
 ### Step 2 — Verify the ISO _(optional but recommended)_
 
