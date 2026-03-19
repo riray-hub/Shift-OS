@@ -158,7 +158,7 @@ _GNOME Files (Nautilus) — simple, clean, and powerful._
 
 Download the latest ISO from the releases page:
 
-👉 **[Download Shift OS Harmonia ISO](https://github.com/Kharisdestianmaulana/shift-os/releases)**
+👉 **[Download Shift OS Harmonia ISO](https://github.com/riray-hub/shift-os/releases)**
 
 > ISO size: ~4.2 GB | Codename: Harmonia | Architecture: amd64
 
@@ -208,7 +208,7 @@ sudo apt install cubic
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/Kharisdestianmaulana/shift-os.git
+   git clone https://github.com/riray-hub/shift-os.git
    cd shift-os
    ```
 2. Open Cubic and point it to the `cubic-project/` directory in this repo
@@ -272,8 +272,8 @@ shift-os/
 
 Contributions are welcome! Here's how you can help:
 
-1. **Report bugs** — Open an [issue](https://github.com/Kharisdestianmaulana/shift-os/issues)
-2. **Suggest features** — Use the [feature request template](https://github.com/Kharisdestianmaulana/shift-os/issues/new)
+1. **Report bugs** — Open an [issue](https://github.com/riray-hub/shift-os/issues)
+2. **Suggest features** — Use the [feature request template](https://github.com/riray-hub/shift-os/issues/new)
 3. **Improve the Welcome App** — Fork the repo, make changes to `welcome/shift-welcome.py`, and open a pull request
 4. **Translations** — Help translate the Welcome App to other languages
 5. **Documentation** — Improve this README or add wiki pages
@@ -281,7 +281,7 @@ Contributions are welcome! Here's how you can help:
 ### Development Setup for the Welcome App
 
 ```bash
-git clone https://github.com/Kharisdestianmaulana/shift-os.git
+git clone https://github.com/riray-hub/shift-os.git
 cd shift-os/welcome
 
 # Install dependencies
@@ -301,7 +301,7 @@ python3 shift-welcome.py
 - **Telegram:** [t.me/shiftos](https://t.me/shiftos)
 - **Discord:** [discord.gg/shiftos](https://discord.gg/shiftos)
 
-Found a bug? Please [open an issue](https://github.com/Kharisdestianmaulana/shift-os/issues) — don't email security vulnerabilities publicly.
+Found a bug? Please [open an issue](https://github.com/riray-hub/shift-os/issues) — don't email security vulnerabilities publicly.
 
 ---
 
